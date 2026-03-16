@@ -8,7 +8,7 @@
       | |                       
       |_|                       
 ```
-# kplane [Experimental]
+# kplane
 
 Kplane is a CLI for running a local management plane and creating virtual
 control planes (VCPs). Each VCP is a logical Kubernetes control plane backed
@@ -25,7 +25,7 @@ project showed that controllers can be made multi-cluster aware and share
 resources effectively. The apiserver side has had many proposals, but nothing
 has landed upstream.
 
-**Baseline kplane virtual control planes (VCPs) use about 0.8MB of memory per control plane.**
+**Baseline kplane virtual control planes (VCPs) use about 2MB of memory per control plane.**
 
 Kplane explores a practical path forward: try to keep compatibility with upstream API
 contracts while virtualizing the apiserver, scheduler, and controller manager.
