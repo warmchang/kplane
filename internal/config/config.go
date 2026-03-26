@@ -78,7 +78,7 @@ func Default() Config {
 				CRDSource:      "https://github.com/kplane-dev/controlplane-operator//config/crd?ref=main",
 				Images: Images{
 					Apiserver: "docker.io/kplanedev/apiserver:v0.0.9",
-					Operator:  "docker.io/kplanedev/controlplane-operator:v0.0.3",
+					Operator:  "docker.io/kplanedev/controlplane-operator:v0.0.15",
 					Etcd:      "quay.io/coreos/etcd:v3.5.13",
 				},
 				Auth: Auth{
